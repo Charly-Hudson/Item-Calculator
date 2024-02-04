@@ -1,0 +1,3 @@
+All images were made by me and and you can use them.
+
+In later versions i will be looking to remove the Json Files and read directly for a DB using SQL Lite
