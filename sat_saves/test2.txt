@@ -1,0 +1,20 @@
+Automated Wiring: 75.0
+Circuit board: 50.0
+Heavy Modular Frame: 10.0
+Computer: 10.0
+
+Circuiit Board: 50/m
+
+Copper sheet: 100.0
+Plastic: 200.0
+
+-
+-
+-
+-
+
+-
+-
+-
+-
+-

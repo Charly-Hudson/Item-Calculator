@@ -1,0 +1,37 @@
+Modular Frame: 50.0
+Steel Pipe: 150.0
+Encased Industrial Beam: 50.0
+Screw: 1000.0
+<
+Modular Frame 50/m
+----------
+Reinforced Iron Plate: 75.0
+Iron Rod: 300.0 -
+
+Iron Plate: 450.0
+Screw: 900.0
+>
+
+<
+Steel Pipe: 150.0
+-----------
+Steel Ingot: 225.0
+>
+
+<
+Encased Industrial Beam: 50.0
+----------------
+Steel Beam: 200.0
+Concrete: 250.0
+>
+
+<
+Screw: 1000.0
+--------------
+Iron Rod: 250.0 - 
+>
+
+Iron Rod 550/m
+
+Hello
+

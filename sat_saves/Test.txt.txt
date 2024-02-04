@@ -1,0 +1,9 @@
+Automated Wiring: 75.0
+Circuit board: 50.0
+Heavy Modular Frame: 10.0
+Computer: 10.0
+
+Automated Wiring: 750.0
+Circuit board: 500.0
+Heavy Modular Frame: 100.0
+Computer: 100.0

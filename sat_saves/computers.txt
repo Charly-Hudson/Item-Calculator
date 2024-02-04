@@ -1,0 +1,6 @@
+computers 250/m 
+
+Circuit Board: 2500.0
+Cable: 2250.0
+Plastic: 4500.0
+Screw: 13000.0

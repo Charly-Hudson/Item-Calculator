@@ -1,0 +1,16 @@
+Automated Wiring: 45.0
+Circuit board: 30.0
+Heavy Modular Frame: 6.0
+Computer: 6.0
+
+{Automated Wiring: 45.0
+Stator: 40.0
+Cable: 800.0}
+
+Circuit board: 30.0
+Copper Sheet: 66.0 66copper
+Silica: 66.0
+
+Heavy Modular Frame: 6.0
+
+Computer: 6.0
