@@ -10,7 +10,7 @@ import os
 # Main Window Spec
 main = Tk()
 main.title('Item Calculators')
-main.iconbitmap('Testing_Grounds_PY/Item Calculator/Images/icon/cha0scharly.ico')
+main.iconbitmap('Images/icon/cha0scharly.ico')
 main.geometry("542x361")
 main.configure(bg="#11161d")
 
@@ -67,7 +67,7 @@ to .000 not .0000000
 def satisfactory():
     sat_calc = Tk()
     sat_calc.title('Satisfactory Calculator')
-    sat_calc.iconbitmap('Testing_Grounds_PY/Item Calculator/Images/icon/satisfactory_img.ico')
+    sat_calc.iconbitmap('Images/icon/satisfactory_img.ico')
     sat_calc.geometry("408x1080")
     sat_calc.config(bg="#26363a")
 
@@ -377,7 +377,7 @@ image_frame.grid(row=4, column=0, columnspan=2)
 
 # Image in main window
 # Image Define
-coming_soon_image = ImageTk.PhotoImage(Image.open("Testing_Grounds_PY/Item Calculator/Images/main/main_images/coming_soon.png"))
+coming_soon_image = ImageTk.PhotoImage(Image.open("Images/main/main_images/coming_soon.png"))
 # Image Label
 coming_soon_label = Label(image_frame, image=coming_soon_image,)
 coming_soon_label.pack()
