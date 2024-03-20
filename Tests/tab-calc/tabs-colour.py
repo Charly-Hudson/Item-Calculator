@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+import ttkbootstrap as tb
 
 main = Tk()
 main.geometry("502x600")
@@ -47,12 +48,7 @@ style_menu.theme_use('default')
 style_menu.configure('Tmenu', background="#11161d", foreground="#b5dfff")
 style_menu.map('Tmenu', background=[('active',"#11161d")], foreground=[('active',"#b5dfff")])
 
-# # Entry Style
-# style_entry = ttk.Style()
-# style_entry.theme_use('default')
-# style_entry.configure('TEntry', background="#11161d", foreground="#b5dfff")
-
-# calc functions
+entry_style = (bg="#11161d", fg="#b5dfff")
     
 def math_funct(entry_widget):
     try:
@@ -69,13 +65,15 @@ math_frame_1 = ttk.Frame(main_math, width=500, height=500)
 math_frame_1.pack(fill="both", expand=1)
 main_math.add(math_frame_1, text="assembler")
 
+test_menu = tb.Menubutton(math_frame_1, Text="Options")
+test_menu.pack(pady=20)
+
 math_1 = ttk.Entry(math_frame_1)
 math_1.pack()
 
 math_1_btt = ttk.Button(math_frame_1, text="Calculate", command=lambda:math_funct(math_1))
 math_1_btt.pack()
 
-#test_menu = ttk.OptionMenu()
 
 math_frame_2 = ttk.Frame(main_math, width=500, height=500)
 math_frame_2.pack(fill="both", expand=1)
