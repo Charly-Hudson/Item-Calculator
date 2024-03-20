@@ -40,6 +40,13 @@ style_button.theme_use('default')
 style_button.configure('TButton', background="#11161d", foreground="#b5dfff")
 style_button.map('TButton', background=[('active', '#b5dfff')], foreground=[('active', '#11161d')])
 
+# Menu Style
+
+style_menu = ttk.Style()
+style_menu.theme_use('default')
+style_menu.configure('Tmenu', background="#11161d", foreground="#b5dfff")
+style_menu.map('Tmenu', background=[('active',"#11161d")], foreground=[('active',"#b5dfff")])
+
 # # Entry Style
 # style_entry = ttk.Style()
 # style_entry.theme_use('default')
