@@ -5,7 +5,6 @@ from PIL import ImageTk,Image
 from tkinter import messagebox
 from tkinter import filedialog
 import pyperclip
-import os
 
 # Main Window Spec
 main = Tk()
