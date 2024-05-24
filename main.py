@@ -53,6 +53,7 @@ patch_0_0_1_body6 = Label(filler_frame, text="- Change to colour scheme in the M
 patch_0_0_1_body7 = Label(filler_frame, text="- Change to colour scheme in the Satisfactory Window", bg="#11161d", fg="#b5dfff").pack()
 
 
+
 # Bring back main window
 def open_main_window():
     main.deiconify()
