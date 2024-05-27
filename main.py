@@ -27,7 +27,7 @@ menu_frame.grid(row=0, column=0, columnspan=2, sticky=W)
 # Need to switch File and Edit to Option Menus
 # Go back to Lessons and run the Option Menu Lesson
 
-def file(options_menu):
+def file_window(options_menu):
     # Destroy the current window
     main.withdraw()
 
@@ -51,16 +51,18 @@ clicked.set("Options")
 #options menu
 options_menu = OptionMenu(menu_frame, clicked, *menu_options)
 options_menu.config(bg="#11161d", fg="#b5dfff", width=6)
-options_menu.grid(row=0, column=1, padx=5,)
+options_menu.grid(row=0, column=0, padx=5,)
 
+if clicked == "File":
+    file_window()
 
 # Exit
 quit_button = Button(menu_frame, text="Exit", command=main.destroy, width=7, bg="#11161d", fg="#b5dfff")
-quit_button.grid(row=0, column=0, pady=5)
+quit_button.grid(row=0, column=1, pady=5)
 
 # Run button Frame for different Calculators
 run_button_frame = LabelFrame(main, text="Item Calculators",borderwidth=3, relief="groove", bg="#11161d", fg="#b5dfff", font="bold")
-run_button_frame.grid(row=1, column=0, sticky=N)
+run_button_frame.grid(row=1, column=0, sticky=N) 
 # Run button Frame for different Calculators
 coming_soon = LabelFrame(main, text="Coming Soon",borderwidth=3, relief="groove", bg="#821e1e", fg="#e49245", font="bold")
 coming_soon.grid(row=2, column=0, sticky=N)
@@ -96,10 +98,6 @@ factorio_open = Button(coming_soon, text="Factorio", state=DISABLED, width=17, b
 factorio_open.grid(row=0, column=0)
 dysonSphere_open = Button(coming_soon, text="Dyson Sphere", state=DISABLED, width=17, bg="#11161d", fg="#b5dfff")
 dysonSphere_open.grid(row=1, column=0)
-starField_open = Button(coming_soon, text="Star Field", state=DISABLED, padx=36, bg="#11161d", fg="#b5dfff")
-starField_open.grid(row=2, column=0)
-infinifactory_open = Button(coming_soon, text="Infinifactory", state=DISABLED, width=17, bg="#11161d", fg="#b5dfff")
-infinifactory_open.grid(row=3, column=0)
 question_open = Button(coming_soon, text="???", state=DISABLED, width=17, bg="#11161d", fg="#b5dfff")
 question_open.grid(row=4, column=0)
 

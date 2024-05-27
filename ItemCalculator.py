@@ -7,9 +7,10 @@ splash.geometry("500x500")
 splash.geometry("+700+240")
 splash.configure(bg="black")
 splash.resizable(0,0)
-# splash.iconbitmap("Images/main/main_images/cha0scharly.png")
+splash.iconbitmap("Images/main/main_images/cha0scharly.png")
 splash.attributes("-topmost", True)
 splash.overrideredirect(True)
+splash.call('wm', 'iconphoto', splash._w, PhotoImage(file="Images/main/main_images/cha0scharly.png"))
 
 def open_main_window():
     splash.destroy()

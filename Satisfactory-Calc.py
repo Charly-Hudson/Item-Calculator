@@ -7,6 +7,7 @@ from tkinter import filedialog
 import pyperclip
 import subprocess
 from tkinter import Toplevel
+import tkinter.ttk as ttk
 
 sat_calc = Tk()
 sat_calc.title('Satisfactory Calculator')
@@ -14,6 +15,7 @@ sat_calc.iconbitmap('Images/icon/satisfactory_img.ico')
 sat_calc.geometry("408x990")
 sat_calc.geometry("+0+0")
 sat_calc.config(bg="#26363a")
+sat_calc.call('wm', 'iconphoto', sat_calc._w, PhotoImage(file="Images/main/main_images/cha0scharly.png"))
 
 # Set window location
 
@@ -23,6 +25,7 @@ sat_menu_frame.grid(row=0, column=0, columnspan=2, sticky=W)
 
 # Menu Items: 
 # Need to switch File and Edit to Option Menus
+
 
 # Bring back main window
 def open_main_window():
