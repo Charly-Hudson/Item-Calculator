@@ -8,7 +8,7 @@ import pyperclip
 import subprocess
 from tkinter import Toplevel
 
-main_geometry = "524x361"
+main_geometry = "543x361"
 
 # Main Window Spec
 main = Tk()
@@ -27,7 +27,7 @@ menu_frame.grid(row=0, column=0, columnspan=2, sticky=W)
 # Need to switch File and Edit to Option Menus
 # Go back to Lessons and run the Option Menu Lesson
 
-def file_window(options_menu):
+def file_window(event):
     # Destroy the current window
     main.withdraw()
 
@@ -37,7 +37,40 @@ def file_window(options_menu):
     file_window.geometry("200x400")
 
     label = Label(file_window, text="File Menu")
+    label.pack()
 
+    def back_funct():
+        file_window.destroy()
+        main.deiconify()
+
+    back_button = Button(file_window, text="Back", command=back_funct)
+    back_button.config(bg="#11161d", fg="#b5dfff", width=7)
+    back_button.pack()
+    file_window.mainloop()
+
+def edit_window(event):
+    # Destroy the current window
+    main.withdraw()
+
+    edit_window = Toplevel()
+    edit_window.title('Edit')
+    edit_window.iconbitmap('Images/icon/cha0scharly.ico')
+    edit_window.geometry("200x400")
+
+    label = Label(edit_window, text="Edit Menu")
+    label.pack()
+    edit_window.mainloop()
+
+def view_window(event):
+    # Destroy the current window
+    main.withdraw()
+    view_window = Toplevel()
+    view_window.title('View')
+    view_window.iconbitmap('Images/icon/cha0scharly.ico')
+    view_window.geometry("200x400")
+    label = Label(view_window, text="View Menu")
+    label.pack()
+    view_window.mainloop()
 
 menu_options = [
     "File",
@@ -45,16 +78,26 @@ menu_options = [
     "View",
 ]
 
+def handler(options_menu):
+    if options_menu.get() == "File":
+        file_window(None)
+    elif options_menu.get() == "Edit":
+        edit_window(None)
+    else:
+        view_window(None)
+
+
 clicked = StringVar()
-clicked.set("Options")
 
 #options menu
 options_menu = OptionMenu(menu_frame, clicked, *menu_options)
-options_menu.config(bg="#11161d", fg="#b5dfff", width=6)
+options_menu.config(bg="#11161d", fg="#b5dfff", width=6, text="Options")
 options_menu.grid(row=0, column=0, padx=5,)
+options_menu.children["menu"].config(bg="#11161d", fg="#b5dfff")
 
-if clicked == "File":
-    file_window()
+if clicked.get() == "File":
+    file_window()   
+
 
 # Exit
 quit_button = Button(menu_frame, text="Exit", command=main.destroy, width=7, bg="#11161d", fg="#b5dfff")
