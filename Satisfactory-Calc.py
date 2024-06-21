@@ -16,6 +16,8 @@ sat_calc.geometry("408x990")
 sat_calc.geometry("+0+0")
 sat_calc.config(bg="#26363a")
 sat_calc.call('wm', 'iconphoto', sat_calc._w, PhotoImage(file="Images/main/main_images/cha0scharly.png"))
+sat_calc.resizable(False, False)
+sat_calc.attributes('-topmost', True)
 
 # Set window location
 

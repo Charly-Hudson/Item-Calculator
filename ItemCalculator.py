@@ -4,7 +4,7 @@ import subprocess
 splash = Tk()
 splash.title("Splash Screen")
 splash.geometry("500x500")
-splash.geometry("+700+240")
+splash.geometry("+750+240")
 splash.configure(bg="black")
 splash.resizable(0,0)
 splash.iconbitmap("Images/main/main_images/cha0scharly.png")
@@ -29,19 +29,10 @@ splash_image = Label(splash, image=charly)
 splash_image.pack(pady=20)
 splash_image.configure(bg="black")  
 
-def checks(i):
-    if i < 50:
-        subprocess.run(["pip", "install", "tk"])
-        subprocess.run(["pip", "install", "pillow"])
-        subprocess.run(["pip", "install", "pyperclip"])
-        subprocess.run(["pip", "install", "filedialog"])
-        subprocess.run(["pip", "install", "messagebox"])
-        i = 100
 
 for i in range(100):
     loading_progress_bar.config(text=f"{i}%")
     splash.update()
-    checks
     splash.after(50)
     if i == 10:
         subprocess.run(["pip", "install", "tk"])

@@ -8,16 +8,15 @@ import pyperclip
 import subprocess
 from tkinter import Toplevel
 
-main_geometry = "543x361"
-
 # Main Window Spec
 main = Tk()
 main.title('Item Calculators')
 main.iconbitmap('Images/icon/cha0scharly.ico')
-main.geometry(main_geometry)
+main.geometry('543x361')
 main.geometry("+0+0")
 main.configure(bg="#11161d")
 main.overrideredirect(True)
+main.attributes('-topmost', True)
 
 # Menu Buttons Frame
 menu_frame = Frame(main, bg="#11161d")
