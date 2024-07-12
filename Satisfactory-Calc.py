@@ -4,6 +4,7 @@ import json
 from PIL import ImageTk,Image
 from tkinter import messagebox
 from tkinter import filedialog
+# from playsound import playsound
 import pyperclip
 import subprocess
 from tkinter import Toplevel
@@ -68,6 +69,9 @@ def sat_open():
 sat_load_button = Button(sat_menu_frame, text="load", command=sat_open, bg="#26363a", fg="#e49245", width=5)
 sat_load_button.grid(row=0, column=3, pady=5)
 
+# def power():
+#     playsound('assets/satisfactory/additional_pylons.mp3')
+
 # Exit Calculator
 sat_exit_menu = Button(sat_menu_frame, text="Exit Calc", command=open_main_window, bg="#26363a", fg="#e49245", width=7)
 sat_exit_menu.grid(row=0, column=4, pady=5)
@@ -75,6 +79,10 @@ sat_exit_menu.grid(row=0, column=4, pady=5)
 # Quit
 sat_quit_menu = Button(sat_menu_frame, text="Quit", command=sat_calc.destroy, bg="#26363a", fg="#e49245", width=5)
 sat_quit_menu.grid(row=0, column=5, pady=5)
+
+# Power Button
+sat_power_button = Button(sat_menu_frame, command="power", text="Power", bg="#26363a", fg="#e49245", width=5)
+sat_power_button.grid(row=0, column=6, pady=5)
 
 # System Notes
 sys_notes = LabelFrame(sat_calc, text="", padx=20, pady=1)
