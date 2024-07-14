@@ -4,12 +4,11 @@ import json
 from PIL import ImageTk,Image
 from tkinter import messagebox
 from tkinter import filedialog
-# from playsound import playsound
 import pyperclip
 import subprocess
 from tkinter import Toplevel
 import tkinter.ttk as ttk
-
+from playsound import playsound
 sat_calc = Tk()
 sat_calc.title('Satisfactory Calculator')
 sat_calc.iconbitmap('Images/icon/satisfactory_img.ico')
@@ -69,8 +68,9 @@ def sat_open():
 sat_load_button = Button(sat_menu_frame, text="load", command=sat_open, bg="#26363a", fg="#e49245", width=5)
 sat_load_button.grid(row=0, column=3, pady=5)
 
-# def power():
-#     playsound('assets/satisfactory/additional_pylons.mp3')
+# Power Button function to play a sound
+def power_sound():
+    playsound('assets/satisfactory/additional_pylons.mp3')
 
 # Exit Calculator
 sat_exit_menu = Button(sat_menu_frame, text="Exit Calc", command=open_main_window, bg="#26363a", fg="#e49245", width=7)
@@ -81,7 +81,7 @@ sat_quit_menu = Button(sat_menu_frame, text="Quit", command=sat_calc.destroy, bg
 sat_quit_menu.grid(row=0, column=5, pady=5)
 
 # Power Button
-sat_power_button = Button(sat_menu_frame, command="power", text="Power", bg="#26363a", fg="#e49245", width=5)
+sat_power_button = Button(sat_menu_frame, command=power_sound, text="Power", bg="#26363a", fg="#e49245", width=5)
 sat_power_button.grid(row=0, column=6, pady=5)
 
 # System Notes

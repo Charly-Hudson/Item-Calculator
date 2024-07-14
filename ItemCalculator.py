@@ -49,6 +49,9 @@ for i in range(100):
     elif i == 80:
         subprocess.run(["pip", "install", "--upgrade", "messagebox"])
         subprocess.run(["pip", "install", "messagebox"])
+    elif i == 90:
+        subprocess.run(["pip", "install", "playsound"])
+        subprocess.run(["pip", "install", "--upgrade", "playsound"])
     else:
         if i == 99:
             open_main_window()
