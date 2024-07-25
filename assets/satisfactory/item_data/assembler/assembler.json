@@ -1,0 +1,429 @@
+{
+    "Adhered Iron Plate (Alt)":
+    {
+        "Result":3.8,
+        "Ingredients":{
+            "Iron Plate":11.25,
+            "Rubber":3.75
+        }
+    }
+}
+
+{
+    "Alclad Aluminum Sheet":
+    {
+        "Result":30,
+        "Ingredients":{
+            "Aluminum Ingot":30,
+            "Copper Ingot":10
+        }
+    }
+}
+
+{
+    "Alclad Casing (Alt)":
+    {
+        "Result":112.5,
+        "Ingredients":{
+            "Aluminum Ingot":150,
+            "Copper Ingot":75
+        }
+    }
+}
+
+{
+    "Assembly Director System":
+    {
+        "Result":0.8,
+        "Ingredients":{
+            "Adaptive Control Unit":1.5,
+            "Super Computer":0.75
+        }
+    }
+}
+
+{
+    "Automated Wiring":
+    {
+        "Result":2.5,
+        "Ingredients":{
+            "Stator":2.5,
+            "Cable":50
+        }
+    }
+}
+
+{
+    "Black Powder":
+    {
+        "Result":30,
+        "Ingredients":{
+            "Coal":15,
+            "Sulphur":15
+        }
+    }
+}
+
+{
+    "Bolted Frame (Alt)":
+    {
+        "Result":5,
+        "Ingredients":{
+            "Reinforced Iron Plate":7.5,
+            "Screw":140
+        }
+    }
+}
+
+{
+    "Bolted Iron Plate (Alt)":
+    {
+        "Result":15,
+        "Ingredients":{
+            "Iron Plate":90,
+            "Screw":250
+        }
+    }
+}
+
+{
+    "Caterium Circuit Board (Alt)":
+    {
+        "Result":8.8,
+        "Ingredients":{
+            "Plastic":12.5,
+            "QuickWire":37.5
+        }
+    }
+}
+
+{
+    "Cheap Silica (alt)":
+    {
+        "Result":26.3,
+        "Ingredients":{
+            "Raw Quartz":11.25,
+            "Limestone":18.75
+        }
+    }
+}
+
+{
+    "Circuit Board":
+    {
+        "Result":7.5,
+        "Ingredients":{
+            "Copper Sheet":15,
+            "Plastic":30
+        }
+    }
+}
+
+{
+    "Cluster Nobelisk":
+    {
+        "Result":2.5,
+        "Ingredients":{
+            "Nobelisk":7.5,
+            "Smokeless Powder":10
+        }
+    }
+}
+
+{
+    "Coated Iron Canister (Alt)":
+    {
+        "Result":60,
+        "Ingredients":{
+            "Iron Plate":30,
+            "Copper Sheet":15
+        }
+    }
+}
+
+{
+    "Coated Iron Plate (Alt)":
+    {
+        "Result":75,
+        "Ingredients":{
+            "Iron Ingot":50,
+            "Plastic":10
+        }
+    }
+}
+
+{
+    "Compacted Coal":
+    {
+        "Result":25,
+        "Ingredients":{
+            "Coal":25,
+            "Sulfur":25
+        }
+    }
+}
+
+{
+    "Copper Rotor (Alt)":
+    {
+        "Result":11.3,
+        "Ingredients":{
+            "Copper Sheet":22.5,
+            "Screw":195
+        }
+    }
+}
+
+{
+    "Crystal Computer (Alt)":
+    {
+        "Result":2.8,
+        "Ingredients":{
+            "Circuit Board":7.5,
+            "Crystal Oscillator":2.8125
+        }
+    }
+}
+
+{
+    "Electric Motor (Alt)":
+    {
+        "Result":7.5,
+        "Ingredients":{
+            "Electromagnetic Control Rod":3.75,
+            "Rotor":7.5
+        }
+    }
+}
+
+{
+    "Electrode Circuit Board":
+    {
+        "Result":5,
+        "Ingredients":{
+            "Rubber":30,
+            "Petroleum coke":45
+        }
+    }
+}
+
+{
+    "Electromagnetic Connection Rod":
+    {
+        "Result":8,
+        "Ingredients":{
+            "Stator":8,
+            "Hight-speed Connector":4
+        }
+    }
+}
+
+{
+    "Electromagnetic Control Rod":
+    {
+        "Result":4,
+        "Ingredients":{
+            "Stator":6,
+            "AI Limiter":4
+        }
+    }
+}
+
+{
+    "Encased Industrial Beam":
+    {
+        "Result":6,
+        "Ingredients":{
+            "Steel Beam":24,
+            "Concrete":30
+        }
+    }
+}
+
+{
+    "Encased Industrial Pipe (Alt)":
+    {
+        "Result":4,
+        "Ingredients":{
+            "Steel Pipe":28,
+            "Concrete":20
+        }
+    }
+}
+
+{
+    "Encased Plutonium Cell":
+    {
+        "Result":5,
+        "Ingredients":{
+            "Plutonium Pellet":10,
+            "Concrete":20
+        }
+    }
+}
+
+{
+    "Fabric":
+    {
+        "Result":15,
+        "Ingredients":{
+            "Mycelia":15,
+            "Biomass":75
+        }
+    }
+}
+
+{
+    "FICSMAS Fancy Fireworks":
+    {
+        "Result":2.5,
+        "Ingredients":{
+            "FICSMAS Tree Branch":10,
+            "FICSMAS Bow":7.5
+        }
+    }
+}
+
+{
+    "FICSMAS Decoration":
+    {
+        "Result":2,
+        "Ingredients":{
+            "FICSMAS Tree Branch":15,
+            "FICSMAS Ornament Bundle":7.5
+        }
+    }
+}
+
+{
+    "FICSMAS Ornament Bundle":
+    {
+        "Result":5,
+        "Ingredients":{
+            "Copper FICSMAS Ornament":5,
+            "Iron FICSMAS Ornament":5
+        }
+    }
+}
+
+{
+    "FICSMAS Wonder Star":
+    {
+        "Result":1,
+        "Ingredients":{
+            "FICSMAS Decoration":5,
+            "Candy Cane":20
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
+{
+    "":
+    {
+        "Result":,
+        "Ingredients":{
+            "":,
+            "":
+        }
+    }
+}
+
