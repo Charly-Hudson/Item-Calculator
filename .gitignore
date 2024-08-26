@@ -1,0 +1,13 @@
+commit.ps1
+package-lock.json
+package.json
+
+Tests
+playsound-test.py 
+playsoundTest_help.py
+testing.py
+node_modules
+
+*.txt
+
+.vscode

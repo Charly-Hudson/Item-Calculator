@@ -35,15 +35,17 @@ for i in range(100):
     splash.update()
     splash.after(50)
     if i == 10:
+        subprocess.run(["pip", "install", "--upgrade", "pip"])
+    elif i == 20:
         subprocess.run(["pip", "install", "tk"])
         subprocess.run(["pip", "install", "--upgrade", "tk"])
-    elif i == 20:
+    elif i == 40:
         subprocess.run(["pip", "install", "pillow"])
         subprocess.run(["pip", "install", "--upgrade", "pillow"])
-    elif i == 40:
+    elif i == 50:
         subprocess.run(["pip", "install", "pyperclip"])
         subprocess.run(["pip", "install", "--upgrade", "pyperclip"])
-    elif i == 60:
+    elif i == 70:
         subprocess.run(["pip", "install", "tkfilebrowser"])
         subprocess.run(["pip", "install", "--upgrade", "tkfilebrowser"])
     elif i == 80:
