@@ -1,9 +1,0 @@
-computers 250/m 
-
-Circuit Board: 2500.0
-Cable: 2250.0
-Plastic: 4500.0
-Screw: 13000.0Automated Wiring: 750.0
-Circuit board: 500.0
-Heavy Modular Frame: 100.0
-Computer: 100.0
